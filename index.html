@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portafolio de Cristian Martinez</title>
+<link rel="stylesheet" href="/src/styles/style.css">
+</head>
+<body>
+<header class="navbar">
+<div class="container">
+<h1 class="logo">Componentes con Less</h1>
+<nav>
+<ul>
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#servicios">Servicios</a></li>
+<li><a href="#proyectos">Proyectos</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+<div class="container">
+<h2>Bienvenido a mi portafolio</h2>
+<p>Este es un ejemplo de un proyecto usando Vite y LESS.</p>
+<a href="#proyectos" class="btn">Ver proyectos</a>
+</div>
+</section>
+
+<section id="servicios" class="features">
+<div class="container">
+<h2>Servicios</h2>
+<div class="cards">
+<article class="card">
+<h3>Desarrollo Front‑end</h3>
+<p>HTML, CSS, JavaScript y frameworks modernos.</p>
+</article>
+<article class="card">
+<h3>Diseño Responsivo</h3>
+<p>Interfaces que se adaptan a cualquier pantalla.</p>
+</article>
+<article class="card">
+<h3>Optimización</h3>
+<p>Performance y accesibilidad como prioridades.</p>
+</article>
+</div>
+</div>
+</section>
+
+<section id="proyectos" class="projects">
+<div class="container">
+<h2>Proyectos destacados</h2>
+<div class="cards">
+<div class="card">
+<img src="https://picsum.photos/seed/p1/300/200" alt="Proyecto 1">
+<h3>Proyecto 1</h3>
+<p>Descripción del proyecto.</p>
+</div>
+<div class="card">
+<img src="https://picsum.photos/seed/p2/300/200" alt="Proyecto 2">
+<h3>Proyecto 2</h3>
+<p>Descripción del proyecto.</p>
+</div>
+<div class="card">
+<img src="https://picsum.photos/seed/p3/300/200" alt="Proyecto 3">
+<h3>Proyecto 3</h3>
+<p>Descripción del proyecto.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="half about">
+<div class="container">
+<div class="text">
+<h2>Sobre mí</h2>
+<p>Más información sobre el desarrollador o el proyecto. Puedes personalizar este texto con tu experiencia, tecnologías usadas, etc.</p>
+</div>
+<div class="image">
+<img src="https://picsum.photos/500/300" alt="Imagen representativa">
+</div>
+</div>
+</section>
+
+<section id="contacto" class="contact">
+<div class="container">
+<h2>Contacto</h2>
+<form action="#" class="contact-form">
+<label for="name">Nombre</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Correo</label>
+<input type="email" id="email" name="email" required>
+<label for="message">Mensaje</label>
+<textarea id="message" name="message" rows="4" required></textarea>
+<button type="submit" class="btn">Enviar</button>
+</form>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+<div class="container">
+<p>© 2026 Cristian Martinez. Todos los derechos reservados.</p>
+</div>
+</footer>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
